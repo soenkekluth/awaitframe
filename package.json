@@ -1,0 +1,24 @@
+{
+  "name": "awaitframe",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soenkekluth/awaitframe.git"
+  },
+  "author": "Sönke Kluth <mail@soenkekluth.com>",
+  "license": "MIT",
+  "description": "Promise / Async Await for requestAnimationFrame, plus delayed and sequenced frames",
+  "bugs": {
+    "url": "https://github.com/soenkekluth/awaitframe/issues"
+  },
+  "homepage": "https://github.com/soenkekluth/awaitframe#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "requestAnimationFrame",
+    "AnimationFrame",
+    "Promise"
+  ]
+}
