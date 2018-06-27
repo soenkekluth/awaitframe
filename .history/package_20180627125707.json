@@ -14,7 +14,10 @@
   },
   "homepage": "https://github.com/soenkekluth/awaitframe#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib || true",
+    "lint": "eslint --fix --format table ./src",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "requestAnimationFrame",
